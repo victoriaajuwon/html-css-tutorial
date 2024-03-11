@@ -46,9 +46,22 @@ h1 .flex span:last-of-type {
 }
 
 section {
-  max-width: 40rem;
+  min-width: 40rem;
   margin: 0 auto;
   border: 2px solid #d0d0d5;
+  
+}
+
+.footnote {
+  font-size: xx-small;
+  margin-top: 0.5em;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #years {
